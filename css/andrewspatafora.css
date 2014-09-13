@@ -29,6 +29,7 @@ body {
 }
 
 a {
+  color: #1F3BA7;
 	text-decoration: none;
 }
 
@@ -103,10 +104,25 @@ h1 {
 	margin: 1.5em auto 0em auto;
 }
 
+#recently-wrapper {
+  float: right;
+  margin-top: 2.2em;
+  margin-right: 5em;
+  width: 15em;
+}
+
+.recently {
+	font-family: 'Open Sans';
+	font-weight: 300;
+	line-height: 1.4em;
+  margin-bottom: 1em;
+}
+
 #bio-wrapper {
-	height: 62em; /* Change along with edits; something is setting overflow:hidden, so I'm removing it in js */
-	width: 45em;
-	margin: 0 auto;
+  display: inline-block;
+	height: 113em; /* Change along with edits; something is setting overflow:hidden, so I'm removing it in js */
+  margin-left: 6em;
+	width: 30em;
 }
 
 .bio {
@@ -127,8 +143,9 @@ h1 {
 
 .readmore {
 	display: block;
-	width: 5.5em;
-	margin: 0.5em auto 0 auto;
+	width: 6em;
+  margin-left: 15em;
+  margin-top: 0.25em;
 	padding: 0.25em 0.25em 0.35em 0.25em;
 	border-radius: 5px;
 	text-align: center;
@@ -147,7 +164,7 @@ h1 {
 #photo-wrapper {
 	height: 162em; /* Change along with additions */
 	width: 47.5em;
-	margin: 0 auto;
+	margin: 1em auto 0 auto;
 	position: relative;
 }
 
@@ -268,7 +285,7 @@ h1 {
 	position: relative;
 }
 
-#reelvid {
+#reel {
     display: inline-block;
     position: absolute;
     top: 0em;
@@ -277,7 +294,7 @@ h1 {
     width: 50em;
 }
 
-#woodsvid1 {
+#mason {
 	display: inline-block;
 	position: absolute;
 	top: 28em;
@@ -286,7 +303,7 @@ h1 {
 	width: 24em;
 }
 
-#woodsvid2 {
+#barnes {
 	display: inline-block;
 	position: absolute;
 	top: 28em;
@@ -295,7 +312,7 @@ h1 {
 	width: 24em;
 }
 
-#soldiervid {
+#cocktail {
 	display: inline-block;
 	position: absolute;
 	top: 43em;
@@ -304,7 +321,7 @@ h1 {
 	width: 24em;
 }
 
-#misfitsvid {
+#takestwo {
 	display: inline-block;
 	position: absolute;
 	top: 43em;
