@@ -164,7 +164,7 @@ h1 {
 #photo-wrapper {
 	height: 162em; /* Change along with additions */
 	width: 47.5em;
-	margin: 1em auto 0 auto;
+	margin: 2em auto 0 auto;
 	position: relative;
 }
 
@@ -279,19 +279,19 @@ h1 {
 }
 
 #video-wrapper {
-	height: 55em; /* Change along with edits */
+	height: 85.5em; /* Change along with edits */
 	width: 50em;
 	margin: 0 auto;
 	position: relative;
 }
 
 #reel {
-    display: inline-block;
-    position: absolute;
-    top: 0em;
-    left: 0em;
-    height: 26em;
-    width: 50em;
+  display: inline-block;
+  position: absolute;
+  top: 0em;
+  left: 0em;
+  height: 26em;
+  width: 50em;
 }
 
 #mason {
@@ -312,26 +312,35 @@ h1 {
 	width: 24em;
 }
 
+#our-youth {
+  display: inline-block;
+  position: absolute;
+  top: 43em;
+  left: 0em;
+  height: 26em;
+  width: 50em;
+}
+
 #cocktail {
 	display: inline-block;
 	position: absolute;
-	top: 43em;
+	top: 71em;
 	left: 0em;
 	height: 13em;
 	width: 24em;
 }
 
-#takestwo {
+#takes-two {
 	display: inline-block;
 	position: absolute;
-	top: 43em;
+	top: 71em;
 	left: 26em;
 	height: 13em;
 	width: 24em;
 }
 
 #resume-wrapper {
-	height: 101em; /* Change along with edits */
+	height: 115em; /* Change along with edits */
 	width: 50em;
 	margin: 0 auto;
 }
