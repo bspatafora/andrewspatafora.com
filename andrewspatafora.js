@@ -2,6 +2,23 @@ $(document).ready(function() {
 
 	$('#bio-wrapper').css('overflow', 'visible');
 
+	$('#about').hide();
+
+  $('#main').hover(function() {
+    $('#play').css({ opacity: 0.4 });
+      }, function() {
+           $('#play').css({ opacity: 0.3 });
+  });
+
+	$('#main').click(function() {
+    $('#about').show();
+    $("#about").attr('src', $("#about").attr('src') + '&autoplay=1');
+  });
+
+  $('#about').bind('finish', function() {
+    $(this).hide();
+  });
+
 	$('#photo-link').removeAttr('href');
 	$('#photo-link').click(function() {
 		$('html, body').animate({

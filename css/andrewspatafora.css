@@ -91,17 +91,34 @@ h1 {
 	text-align: center;
 	font-family: 'Josefin Sans';
 	font-weight: 100;
-
-	animation: fadein 2.5s;
-	-moz-animation: fadein 2.5s;
-	-webkit-animation: fadein 2.5s;
-	-o-animation: fadein 2.5s;
 }
 
 #main {
 	display: block;
 	width: 50em;
 	margin: 1.5em auto 0em auto;
+}
+
+#play {
+  left: 41.27em;
+  opacity: 0.3;
+  pointer-events: none;
+  position: absolute;
+  top: 24.2em;
+  width: 7em;
+
+  animation: fadeinalittle 4s;
+	-moz-animation: fadeinalittle 4s;
+	-webkit-animation: fadeinalittle 4s;
+	-o-animation: fadeinalittle 4s;
+}
+
+#about {
+  position: absolute;
+  top: 13em;
+  left: 20em;
+  height: 29.45em;
+  width: 50em; 
 }
 
 #recently-wrapper {
@@ -279,7 +296,7 @@ h1 {
 }
 
 #video-wrapper {
-	height: 85.5em; /* Change along with edits */
+	height: 86em; /* Change along with edits */
 	width: 50em;
 	margin: 0 auto;
 	position: relative;
@@ -337,6 +354,37 @@ h1 {
 	left: 26em;
 	height: 13em;
 	width: 24em;
+}
+
+#audio-wrapper {
+  height: 24em; /* Change along with edits */
+  width: 50em;
+  margin: 0 auto;
+  position: relative;
+}
+
+#seven-eleven {
+  margin-left: 4em;
+  width: 20em;
+}
+
+#att {
+  float: right;
+  margin-right: 4em;
+  width: 20em;
+}
+
+#dont-drink {
+  margin-left: 4em;
+  margin-top: 1.75em;
+  width: 20em;
+}
+
+#ipod {
+  float: right;
+  margin-right: 4em;
+  margin-top: 1.75em;
+  width: 20em;
 }
 
 #resume-wrapper {
@@ -635,6 +683,39 @@ h3 {
 	to {
 		opacity:1;
 	}
-}​
+}
 
 /* --- */
+
+@keyframes fadeinalittle {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:0.3;
+	}
+}
+@-moz-keyframes fadeinalittle {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:0.3;
+	}
+}
+@-webkit-keyframes fadeinalittle {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:0.3;
+	}
+}
+@-o-keyframes fadeinalittle {
+	from {
+		opacity:0;
+	}
+	to {
+		opacity:0.3;
+	}
+}
