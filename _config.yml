@@ -1,0 +1,8 @@
+# Site settings
+description: "The personal portfolio of Chicago actor Andrew Spatafora"
+baseurl: ""
+url: "http://andrewspatafora.com"
+
+# Build settings
+markdown: kramdown
+permalink: pretty
