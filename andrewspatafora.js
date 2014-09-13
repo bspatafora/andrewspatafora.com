@@ -5,9 +5,9 @@ $(document).ready(function() {
 	$('#about').hide();
 
   $('#main').hover(function() {
-    $('#play').css({ opacity: 0.4 });
+    $('#play').fadeTo(350, 0.45);
       }, function() {
-           $('#play').css({ opacity: 0.3 });
+           $('#play').fadeTo(350, 0.26);
   });
 
 	$('#main').click(function() {

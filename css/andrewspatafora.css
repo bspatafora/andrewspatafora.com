@@ -95,22 +95,23 @@ h1 {
 
 #main {
 	display: block;
+  cursor: pointer;
 	width: 50em;
 	margin: 1.5em auto 0em auto;
 }
 
 #play {
   left: 41.27em;
-  opacity: 0.3;
+  opacity: 0.26;
   pointer-events: none;
   position: absolute;
   top: 24.2em;
   width: 7em;
 
-  animation: fadeinalittle 4s;
-	-moz-animation: fadeinalittle 4s;
-	-webkit-animation: fadeinalittle 4s;
-	-o-animation: fadeinalittle 4s;
+  animation: fadeinalittle 2.5s;
+	-moz-animation: fadeinalittle 2.5s;
+	-webkit-animation: fadeinalittle 2.5s;
+	-o-animation: fadeinalittle 2.5s;
 }
 
 #about {
@@ -692,7 +693,7 @@ h3 {
 		opacity:0;
 	}
 	to {
-		opacity:0.3;
+		opacity:0.26;
 	}
 }
 @-moz-keyframes fadeinalittle {
@@ -700,7 +701,7 @@ h3 {
 		opacity:0;
 	}
 	to {
-		opacity:0.3;
+		opacity:0.26;
 	}
 }
 @-webkit-keyframes fadeinalittle {
@@ -708,7 +709,7 @@ h3 {
 		opacity:0;
 	}
 	to {
-		opacity:0.3;
+		opacity:0.26;
 	}
 }
 @-o-keyframes fadeinalittle {
@@ -716,6 +717,6 @@ h3 {
 		opacity:0;
 	}
 	to {
-		opacity:0.3;
+		opacity:0.26;
 	}
 }
