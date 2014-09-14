@@ -142,7 +142,7 @@ h1 {
 
 #bio-wrapper {
   display: inline-block;
-  height: 113em; /* Change along with edits; something is setting overflow:hidden, so I'm removing it in js */
+  height: 114em; /* Change along with edits; something is setting overflow:hidden, so I'm removing it in js */
   margin-left: 6em;
   width: 30em;
 }
