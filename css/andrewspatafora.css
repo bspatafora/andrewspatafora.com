@@ -184,7 +184,7 @@ h1 {
 }
 
 #photo-wrapper {
-  height: 162em; /* Change along with additions */
+  height: 160em; /* Change along with additions */
   width: 47.5em;
   margin: 2em auto 0 auto;
   position: relative;
@@ -393,19 +393,19 @@ h1 {
 }
 
 #resume-wrapper {
-  height: 123em; /* Change along with edits */
+  height: 111em; /* Change along with edits */
   width: 50em;
   margin: 0 auto;
 }
 
 h2 {
-  font-size: 3.5em;
+  font-size: 2.5em;
 }
 
 .header {
   margin: 1em 0 0.25em 0.25em;
   font-family: 'Josefin Sans';
-  font-weight: 100;
+  font-weight: 300;
   color: #95335A;
 }
 
