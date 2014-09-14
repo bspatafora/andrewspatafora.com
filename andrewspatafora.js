@@ -2,8 +2,6 @@ $(document).ready(function() {
 
 	$('#bio-wrapper').css('overflow', 'visible');
 
-	$('#about').hide();
-
   $('#main').hover(function() {
     $('#play').fadeTo(350, 0.45);
       }, function() {

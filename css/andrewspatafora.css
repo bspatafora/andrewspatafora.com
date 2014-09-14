@@ -119,10 +119,11 @@ h1 {
 }
 
 #about {
+  display: none;
+  height: 29.45em;
+  left: 5em;
   position: absolute;
   top: 0em;
-  left: 5em;
-  height: 29.45em;
   width: 50em; 
 }
 
