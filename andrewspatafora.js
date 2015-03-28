@@ -3,9 +3,9 @@ $(document).ready(function() {
 	$('#bio-wrapper').css('overflow', 'visible');
 
   $('#main').hover(function() {
-    $('#play').fadeTo(350, 0.45);
+    $('#play').fadeTo(500, 0.5);
       }, function() {
-           $('#play').fadeTo(350, 0.26);
+           $('#play').fadeTo(500, 0.2);
   });
 
 	$('#main').click(function() {
@@ -52,6 +52,11 @@ $(document).ready(function() {
 	});
 
 	$('#photo-wrapper').magnificPopup({
+		delegate: 'a',
+		type: 'image'
+	});
+
+  $('#recently-photo-wrapper').magnificPopup({
 		delegate: 'a',
 		type: 'image'
 	});

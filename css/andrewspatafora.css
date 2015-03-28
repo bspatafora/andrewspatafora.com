@@ -29,7 +29,7 @@ body {
 }
 
 a {
-  color: #1F3BA7;
+  color: #35465B;
   text-decoration: none;
 }
 
@@ -58,7 +58,7 @@ a {
   font-size: 2.5em;
   font-family: 'Josefin Sans';
   font-weight: 300;
-  color: #95335A;
+  color: #35465B;
   cursor: pointer;
   -webkit-font-smoothing: antialiased; /* Addresses font change over iframe issue in Safari */
 }
@@ -73,7 +73,7 @@ a {
   font-size: 2.5em;
   font-family: 'Josefin Sans';
   font-weight: 300;
-  color: #1F3BA7;
+  color: #35465B;
   cursor: pointer;
   -webkit-font-smoothing: antialiased; /* Addresses font change over iframe issue in Safari */
 }
@@ -83,10 +83,11 @@ a {
 }
 
 h1 {
-  font-size: 8em;
+  font-size: 7.5em;
 }
 
 #name {
+  color: #35465B;
   margin-top: 0.65em;
   text-align: center;
   font-family: 'Josefin Sans';
@@ -105,17 +106,17 @@ h1 {
 }
 
 #play {
-  left: 26.5em;
-  opacity: 0.26;
+  left: 34em;
+  opacity: 0.2;
   pointer-events: none;
   position: absolute;
-  top: 11.25em;
-  width: 7em;
+  top: 11.75em;
+  width: 6em;
 
-  animation: fadeinalittle 2.5s;
-  -moz-animation: fadeinalittle 2.5s;
-  -webkit-animation: fadeinalittle 2.5s;
-  -o-animation: fadeinalittle 2.5s;
+  animation: fadeinalittle 4s;
+  -moz-animation: fadeinalittle 4s;
+  -webkit-animation: fadeinalittle 4s;
+  -o-animation: fadeinalittle 4s;
 }
 
 #about {
@@ -129,9 +130,8 @@ h1 {
 
 #recently-wrapper {
   float: right;
-  margin-top: 2.2em;
-  margin-right: 5em;
-  width: 15em;
+  margin: 2.6em 5em 0 0;
+  width: 17em;
 }
 
 .recently {
@@ -141,16 +141,21 @@ h1 {
   margin-bottom: 1em;
 }
 
+.recently-photo {
+  margin-bottom: 1em;
+  width: 17em;
+}
+
 #bio-wrapper {
   display: inline-block;
-  height: 114em; /* Change along with edits; something is setting overflow:hidden, so I'm removing it in js */
-  margin-left: 6em;
+  height: 80em; /* Change along with edits; something is setting overflow:hidden, so I'm removing it in js */
+  margin: 1em 0 0 5em;
   width: 30em;
 }
 
 .bio {
   margin-top: 1.35em;
-  font-size: 1.35em;
+  font-size: 1.15em;
   font-family: 'Open Sans';
   font-weight: 300;
   line-height: 1.4em;
@@ -167,16 +172,15 @@ h1 {
 .readmore {
   display: block;
   width: 6em;
-  margin-left: 15em;
-  margin-top: 0.25em;
+  margin-left: 13.5em;
+  margin-top: 0.5em;
   padding: 0.25em 0.25em 0.35em 0.25em;
-  border-radius: 5px;
   text-align: center;
   font-size: 1.15em;
   font-family: 'Open Sans';
   font-weight: 300;
   color: #FDFDFD;
-  background-color: #95335A;
+  background-color: #35465B;
   opacity: 0.8;
 }
 
@@ -185,127 +189,192 @@ h1 {
 }
 
 #photo-wrapper {
-  height: 160em; /* Change along with additions */
+  height: 217em; /* Change along with additions */
   width: 47.5em;
-  margin: 2em auto 0 auto;
+  margin: 4em auto 0 auto;
   position: relative;
 }
 
-#headshot1 {
-  width: 18em;
+#photo_1 {
+  width: 22em;
+  left: -3em;
   position: absolute;
-  top: 8em;
+  top: 6em;
 }
 
-#headshot2 {
-  width: 28em;
+#photo_2 {
+  width: 32em;
+  left: 20em;
   position: absolute;
-  top: 12em;
-  left: 19em;
+  top: 6em;
 }
 
-#headshot3 {
-  width: 11em;
+#photo_3 {
+  width: 17em;
+  left: 20em;
   position: absolute;
-  top: 34.15em;
-  left: 23em;
+  top: 26.5em;
 }
 
-#headshot4 {
-  width: 11em;
+#photo_4 {
+  width: 14em;
+  left: 38em;
   position: absolute;
-  top: 34.15em;
-  left: 35em;
+  top: 26.5em;
 }
 
-#headshot5 {
+#photo_5 {
+  width: 17em;
+  left: -3em;
+  position: absolute;
+  top: 40em;
+}
+
+#photo_6 {
   width: 20em;
+  left: 15em;
   position: absolute;
-  top: 38.15em;
-  left: 2em;
+  top: 44.5em;
 }
 
-#headshot6 {
-  width: 18em;
+#photo_7 {
+  width: 16em;
+  left: 36em;
   position: absolute;
-  top: 51.75em;
-  left: 29.5em;
+  top: 47em;
 }
 
-#soldier1 {
-  width: 28.5em;
+#photo_8 {
+  width: 17em;
+  left: -3em;
   position: absolute;
-  top: 67.75em;
+  top: 58em;
 }
 
-#soldier2 {
+#photo_9 {
+  width: 35em;
+  left: -3em;
+  position: absolute;
+  top: 75.5em;
+}
+
+#photo_10 {
+  width: 16em;
+  left: 36em;
+  position: absolute;
+  top: 70.5em;
+}
+
+#photo_11 {
   width: 19em;
+  left: 33em;
   position: absolute;
-  top: 79.75em;
-  left: 29.5em;
+  top: 87.5em;
 }
 
-#soldier3 {
-  width: 20em;
+#photo_12 {
+  width: 16em;
+  left: -3em;
   position: absolute;
-  top: 84em;
-  left: 5.5em;
+  top: 100em;
 }
 
-#soldier4 {
-  width: 20em;
-  position: absolute;
-  top: 96em;
-  left: 1em;
-}
-
-#soldier5 {
-  width: 28em;
-  position: absolute;
-  top: 102.25em;
-  left: 22em;
-}
-
-#starting1 {
+#photo_13 {
   width: 18em;
+  left: 14em;
   position: absolute;
-  top: 107.75em;
-  left: -1em;
+  top: 100em;
 }
 
-#starting2 {
-  width: 31em;
+#photo_14 {
+  width: 38em;
+  left: 14em;
   position: absolute;
-  top: 118.25em;
-  left: 18em;
+  top: 114.75em;
 }
 
-#hello1 {
-    width: 16em;
-    position: absolute;
-    top: 135.5em;
-    left: 0em;
+#photo_15 {
+  width: 16em;
+  left: -3em;
+  position: absolute;
+  top: 123.75em;
 }
 
-#hello2 {
-    width: 27em;
-    position: absolute;
-    top: 140.5em;
-    left: 23em;
+#photo_16 {
+  width: 22em;
+  left: -3em;
+  position: absolute;
+  top: 135.5em;
 }
 
-#hello3 {
-    width: 24em;
-    position: absolute;
-    top: 148.5em;
-    left: -2em;  
+#photo_17 {
+  width: 32em;
+  left: 20em;
+  position: absolute;
+  top: 135.5em;
+}
+
+#photo_18 {
+  width: 27em;
+  left: -3em;
+  position: absolute;
+  top: 154em;
+}
+
+#photo_19 {
+  width: 27em;
+  left: 25em;
+  position: absolute;
+  top: 154em;
+}
+
+#photo_20 {
+  width: 18em;
+  left: -3em;
+  position: absolute;
+  top: 169.5em;
+}
+
+#photo_21 {
+  width: 36em;
+  left: 16em;
+  position: absolute;
+  top: 169.5em;
+}
+
+#photo_22 {
+  width: 18em;
+  left: -3em;
+  position: absolute;
+  top: 191em;
+}
+
+#photo_23 {
+  width: 19em;
+  left: 16em;
+  position: absolute;
+  top: 194.5em;
+}
+
+#photo_24 {
+  width: 16em;
+  left: 36em;
+  position: absolute;
+  top: 194.5em;
+}
+
+#photo_25 {
+  width: 19em;
+  left: 16em;
+  position: absolute;
+  top: 208em;
 }
 
 #video-wrapper {
   height: 86em; /* Change along with edits */
-  width: 50em;
-  margin: 0 auto;
+  margin: 2em auto 0 auto;
   position: relative;
+  width: 50em;
 }
 
 #reel {
@@ -317,7 +386,7 @@ h1 {
   width: 50em;
 }
 
-#mason {
+#barnes {
   display: inline-block;
   position: absolute;
   top: 28em;
@@ -326,7 +395,7 @@ h1 {
   width: 24em;
 }
 
-#barnes {
+#cocktail {
   display: inline-block;
   position: absolute;
   top: 28em;
@@ -335,7 +404,7 @@ h1 {
   width: 24em;
 }
 
-#our-youth {
+#mason {
   display: inline-block;
   position: absolute;
   top: 43em;
@@ -344,7 +413,7 @@ h1 {
   width: 50em;
 }
 
-#cocktail {
+#our-youth {
   display: inline-block;
   position: absolute;
   top: 71em;
@@ -365,38 +434,38 @@ h1 {
 #audio-wrapper {
   height: 24em; /* Change along with edits */
   width: 50em;
-  margin: 0 auto;
+  margin: 2em auto 0 auto;
   position: relative;
 }
 
 #seven-eleven {
-  margin-left: 4em;
+  margin-left: 2em;
   width: 20em;
 }
 
 #att {
   float: right;
-  margin-right: 4em;
+  margin-right: 2em;
   width: 20em;
 }
 
 #dont-drink {
-  margin-left: 4em;
-  margin-top: 1.75em;
+  margin-left: 2em;
+  margin-top: 2.75em;
   width: 20em;
 }
 
 #ipod {
   float: right;
-  margin-right: 4em;
-  margin-top: 1.75em;
+  margin-right: 2em;
+  margin-top: 2.75em;
   width: 20em;
 }
 
 #resume-wrapper {
-  height: 111em; /* Change along with edits */
+  height: 123em; /* Change along with edits */
   width: 50em;
-  margin: 0 auto;
+  margin: 4em auto 0 auto;
 }
 
 h2 {
@@ -407,7 +476,7 @@ h2 {
   margin: 1em 0 0.25em 0.25em;
   font-family: 'Josefin Sans';
   font-weight: 300;
-  color: #95335A;
+  color: #35465B;
 }
 
 .line {
@@ -479,13 +548,12 @@ h2 {
   width: 12em;
   margin: 0.5em;
   padding: 0.4em 0.4em 0.5em 0.4em;
-  border-radius: 5px;
   text-align: center;
   font-size: 1.35em;
   font-family: 'Open Sans';
   font-weight: 300;
   color: #FDFDFD;
-  background-color: #95335A;
+  background-color: #35465B;
   opacity: 0.8;
 }
 
@@ -507,7 +575,7 @@ h3 {
   text-align: center;
   font-family: 'Josefin Sans';
   font-weight: 300;
-  color: #95335A;
+  color: #35465B;
 }
 
 #email:hover {
@@ -516,18 +584,18 @@ h3 {
 
 #social-wrapper {
   width: 26.25em;
-  margin: 0.5em auto 0 auto;
+  margin: 1em auto 0 auto;
 }
 
 .social {
   width: 4.5em;
   display: inline-block;
   padding: 1.88em;
-  opacity: 0.75;
+  opacity: 0.55;
 }
 
 .social:hover {
-  opacity: 0.95;
+  opacity: 0.75;
 }
 
 @keyframes fadeinalittle {
@@ -535,7 +603,7 @@ h3 {
     opacity:0;
   }
   to {
-    opacity:0.26;
+    opacity:0.2;
   }
 }
 @-moz-keyframes fadeinalittle {
@@ -543,7 +611,7 @@ h3 {
     opacity:0;
   }
   to {
-    opacity:0.26;
+    opacity:0.2;
   }
 }
 @-webkit-keyframes fadeinalittle {
@@ -551,7 +619,7 @@ h3 {
     opacity:0;
   }
   to {
-    opacity:0.26;
+    opacity:0.2;
   }
 }
 @-o-keyframes fadeinalittle {
@@ -559,7 +627,7 @@ h3 {
     opacity:0;
   }
   to {
-    opacity:0.26;
+    opacity:0.2;
   }
 }
 
