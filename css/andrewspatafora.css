@@ -463,7 +463,7 @@ h1 {
 }
 
 #resume-wrapper {
-  height: 123em; /* Change along with edits */
+  height: 126em; /* Change along with edits */
   width: 50em;
   margin: 4em auto 0 auto;
 }
@@ -583,14 +583,14 @@ h3 {
 }
 
 #social-wrapper {
-  width: 26.25em;
+  width: 26.75em;
   margin: 1em auto 0 auto;
 }
 
 .social {
   width: 4.5em;
   display: inline-block;
-  padding: 1.88em;
+  padding: 1em;
   opacity: 0.55;
 }
 
