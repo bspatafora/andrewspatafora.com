@@ -189,7 +189,7 @@ h1 {
 }
 
 #photo-wrapper {
-  height: 217em; /* Change along with additions */
+  height: 232em; /* Change along with additions */
   width: 47.5em;
   margin: 6em auto 0 auto;
   position: relative;
@@ -368,6 +368,27 @@ h1 {
   left: 16em;
   position: absolute;
   top: 208em;
+}
+
+#photo_26 {
+  width: 18em;
+  left: -3em;
+  position: absolute;
+  top: 219em;
+}
+
+#photo_27 {
+  width: 19em;
+  left: 16em;
+  position: absolute;
+  top: 222em;
+}
+
+#photo_28 {
+  width: 16em;
+  left: 36em;
+  position: absolute;
+  top: 211.5em;
 }
 
 #video-wrapper {
