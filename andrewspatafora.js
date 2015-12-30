@@ -1,7 +1,5 @@
 $(document).ready(function() {
 
-	$('#bio-wrapper').css('overflow', 'visible');
-
   $('#main').hover(function() {
     $('#play').fadeTo(500, 0.5);
       }, function() {
@@ -43,12 +41,6 @@ $(document).ready(function() {
 		$('html, body').animate({
 			scrollTop: $('#contact').offset().top
 		}, 500);
-	});
-
-	$('#bio-wrapper').readmore({
-		maxHeight: 1154, // Change amount of bio that is initially-visible
-		moreLink: '<a class="readmore" href="#">Read more</a>',
-		lessLink: '<a class="readmore" href="#">Close</a>'
 	});
 
 	$('#photo-wrapper').magnificPopup({
